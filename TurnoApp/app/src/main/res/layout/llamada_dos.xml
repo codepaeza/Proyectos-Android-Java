@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    tools:context="com.paez.edwin.turnoapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contactos Codensa"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"
+        android:padding="30dp"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:stretchColumns="*">
+        <TableRow>
+            <Button
+                android:id="@+id/Button21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Llamar Oscar Ivan"
+                android:onClick="llamada21"
+                />
+            <Button
+                android:id="@+id/Button22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WhatsApp"
+                android:onClick="llamada12"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/Button23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Llamar Flavio"
+                android:onClick="llamada23"
+                />
+            <Button
+                android:id="@+id/Button24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WhatsApp"
+                android:onClick="llamada24"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/Button25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Llamar Leandro Niño"
+                android:onClick="llamada25"
+                />
+            <Button
+                android:id="@+id/Button26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Llamar Ernesto Ramirez"
+                android:onClick="llamada26"
+                />
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>

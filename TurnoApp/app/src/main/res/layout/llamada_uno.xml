@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    tools:context="com.paez.edwin.turnoapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comunicación Centro de Control"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"
+        android:padding="30dp"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:stretchColumns="*">
+        <TableRow>
+            <Button
+                android:id="@+id/Button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cordinador Turno"
+                android:onClick="llamada11"
+                />
+            <Button
+                android:id="@+id/Button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CCAT"
+                android:onClick="llamada12"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/Button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CC MT"
+                android:onClick="llamada13"
+                />
+            <Button
+                android:id="@+id/Button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CC Directo IVR1"
+                android:onClick="llamada14"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/Button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directo IVR2"
+                android:onClick="llamada15"
+                />
+            <Button
+                android:id="@+id/Button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directo IVR3"
+                android:onClick="llamada16"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/Button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directo IVR4"
+                android:onClick="llamada17"
+                />
+            <Button
+                android:id="@+id/Button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directo IVR5"
+                android:onClick="llamada18"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

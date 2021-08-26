@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    tools:context="com.paez.edwin.turnoapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comunicación Turno Sumapaz-Oriente"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"
+        android:padding="30dp"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:stretchColumns="*">
+        <TableRow>
+            <Button
+                android:id="@+id/Button01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Centro de Control"
+                android:onClick="llamada01"
+                />
+            <Button
+                android:id="@+id/Button02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Codensa Disponibilidad"
+                android:onClick="llamada02"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/Button03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Codensa Sumapaz"
+                android:onClick="llamada03"
+                />
+            <Button
+                android:id="@+id/Button04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Codensa Cáqueza"
+                android:onClick="llamada04"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/Button05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Codensa Medina"
+                android:onClick="llamada05"
+                />
+            <Button
+                android:id="@+id/Button06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quanta"
+                android:onClick="llamada06"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/Button07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Micol Cáqueza"
+                android:onClick="llamada07"
+                />
+            <Button
+                android:id="@+id/Button08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Micol Medina"
+                android:onClick="llamada08"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

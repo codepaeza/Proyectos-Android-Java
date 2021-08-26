@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    tools:context="com.paez.edwin.turnoapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quanta Sumapaz"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"
+        android:padding="30dp"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:stretchColumns="*">
+        <TableRow>
+            <Button
+                android:id="@+id/Button61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sandra Pinzon"
+                android:onClick="llamada61"
+                />
+            <Button
+                android:id="@+id/Button62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Henry Castellanos"
+                android:onClick="llamada62"
+                />
+        </TableRow>
+
+        <Button
+            android:id="@+id/Button63"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daniel Sanchez"
+            android:onClick="llamada63"
+            />
+
+    </TableLayout>
+
+</LinearLayout>
